@@ -32,7 +32,7 @@ class Employee extends Person{
 		return this._jobTitle
 	}
 	printEmployeeDetails(){
-		console.log(`Hello, my name is ${this._name}, I am ${this._age} years old`)
+		console.log(`Hello, my name is ${this._name}, I am ${this._age} years old, and my job title is ${this._jobTitle}`)
 	}
 }
 
