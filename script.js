@@ -6,10 +6,11 @@ class Person{
 	}
 	
 	greet(){
-		return `Hello, my name is ${this._name}, I am ${this._age} years old`
+		console.log(`Hello, my name is ${this._name}, I am ${this._age} years old.`)
 	}
 	
 }
+
 class Employee extends Person{
 	constructor(name, age,jobTitle) {
 		super(name,age)
@@ -17,7 +18,7 @@ class Employee extends Person{
 	}
 	
 	jobGreet(){
-		console.log(`Hello, my name is ${this._name}, I am ${this._age} years old, and my job title is ${this._jobTitle}`)
+		console.log(`Hello, my name is ${this._name}, I am ${this._age} years old, and my job title is ${this._jobTitle}.`)
 	}
 }
 
