@@ -10,15 +10,7 @@ class Person{
 	getDetails(){
 		return `Hello, my name is ${this._name}, I am ${this._age} years old`
 	}
-	// get name(){
-	// 	return this._name;
-	// }
-	// get age(){
-	// 	return this._age;
-	// }
-	// printPersonDetails(){
-	// 	console.log(`Hello, my name is ${this._name}, I am ${this._age} years old`)
-	// }
+	
 }
 
 
@@ -27,15 +19,7 @@ class Employee extends Person{
 		super(name,age)
 		this._jobTitle=jobTitle
 	}
-	// get name(){
-	// 	return this._name;
-	// }
-	// get age(){
-	// 	return this._age;
-	// }
-	// get jobTitle(){
-	// 	return this._jobTitle
-	// }
+	
 	getDetails(){
 		console.log(`Hello, my name is ${this._name}, I am ${this._age} years old, and my job title is ${this._jobTitle}`)
 	}
