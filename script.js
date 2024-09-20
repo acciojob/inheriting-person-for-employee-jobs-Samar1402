@@ -4,23 +4,19 @@ class Person{
 		this.name=name;
 		this.age=age;
 	}
+	
 	greet(){
-		return `Hello, my name is ${this.name}`
-	}
-	getDetails(){
 		return `Hello, my name is ${this._name}, I am ${this._age} years old`
 	}
 	
 }
-
-
 class Employee extends Person{
 	constructor(name, age,jobTitle) {
 		super(name,age)
 		this._jobTitle=jobTitle
 	}
 	
-	getDetails(){
+	jobGreet(){
 		console.log(`Hello, my name is ${this._name}, I am ${this._age} years old, and my job title is ${this._jobTitle}`)
 	}
 }
